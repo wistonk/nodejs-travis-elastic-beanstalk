@@ -19,7 +19,7 @@ deploy:
     secure: "$SECRETACCESSKEY"
   region: "us-east-2"  
   app: "nodejs-travis-elastic-beanstalk"
-  env: "nodejs-travis-elastic-beanstalk-dev"
+  env: "jenga-elastic-beanstalk-dev"
   bucket_name: "jenga-elastic-beanstalk"
   on:
     branch: master
